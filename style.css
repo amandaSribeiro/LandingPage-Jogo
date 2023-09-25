@@ -36,19 +36,20 @@ h2{
 }
 .vetorOndas{
     background-size: 100% auto;
-    position: absolute;
+    height: auto; /* Mantenha a proporção */
+    position: fixed; /* Mantenha o vetor fixo na tela */
+    position: relative;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: auto;
     flex-shrink: 0;
     background-size: 100% auto; /* Cobrir a largura e ajustar a altura automaticamente */
     flex-direction:column;
     display: block;
+    max-width: 100%; /* Ajuste para o tamanho máximo desejado */
 }
 
 .btn-jogue-agora{
-    display: inline-block;
     padding: 10px 20px;
     background-color: #F20574;
     color: #FFF;
@@ -70,13 +71,36 @@ h2{
     border-radius: 30px;
         }
 
-.logoHorinzontal{    
-
-
+#secao2{
+    position: relative ;
+}
+/* Estilo para a imagem com a classe .logoHorizontal */
+.logoHorizontal {
+    display: block;
+    max-width: 100%; /* Ajuste para o tamanho máximo desejado */
+    height: auto; /* Mantenha a proporção */
+    position: absolute; /* Posição absoluta */
+    left: 50%; /* Centralize horizontalmente */
+    transform: translateX(-50%); /* Centralize horizontalmente */
+    z-index: 1; /* Garanta que a imagem esteja à frente de outros elementos, se necessário */
 }
 
 
 
+
+
+h3{
+    width: 650.758px;
+    height: 126.823px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
 
 
         
