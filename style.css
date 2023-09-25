@@ -74,6 +74,7 @@ h2{
 #secao2{
     position: relative ;
 }
+
 /* Estilo para a imagem com a classe .logoHorizontal */
 .logoHorizontal {
     display: block;
@@ -85,22 +86,34 @@ h2{
     z-index: 1; /* Garanta que a imagem esteja à frente de outros elementos, se necessário */
 }
 
-
-
-
-
-h3{
-    width: 650.758px;
-    height: 126.823px;
-    flex-shrink: 0;
-    color: #FFF;
+h3 {
+    width: 1305.916px;
+    height: 238.873px;
+    color: #000;
+    text-align: center;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* Estilo para o elemento pai (container) */
+.container {
+    
+}
+
+/* Estilo para as divs dos personagens */
+.personagem {
 
 }
 
-
-        
+/* Estilo para as imagens dos personagens */
+.personagem img {
+    
+}
