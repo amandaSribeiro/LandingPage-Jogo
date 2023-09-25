@@ -1,0 +1,82 @@
+.h1-principal{
+    width: 707.052px;
+    height: 167.176px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 180px;
+    left: 30%;
+    transform: translateX(-47%);
+    padding: 1px;
+    z-index: 1;
+}
+
+h2{
+    width: 650.758px;
+    height: 126.823px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    transform: translateX(-46%);
+    padding: 10px;
+    z-index: 1;
+}
+.vetorOndas{
+    background-size: 100% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background-size: 100% auto; /* Cobrir a largura e ajustar a altura automaticamente */
+    flex-direction:column;
+    display: block;
+}
+
+.btn-jogue-agora{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F20574;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transform: translateX(-50%);
+    position: absolute;
+    top: 550px;
+    left: 30%;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 30px;
+        }
+
+.logoHorinzontal{    
+
+
+}
+
+
+
+
+
+        
