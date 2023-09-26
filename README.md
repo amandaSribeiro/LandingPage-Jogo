@@ -1,9 +1,5 @@
 
-# Landing Page do jogo "Batalha Matemática: Adição vs. Subtração"
-
-[Link do site](https://amandasribeiro.github.io/LandingPage-Jogo/)
-<br>
-<br>
+# [Landing Page do jogo "Batalha Matemática: Adição vs. Subtração"](https://amandasribeiro.github.io/LandingPage-Jogo/)
 A landing page apresenta o jogo "Batalha Matemática: Adição vs. Subtração" como uma experiência educativa e divertida para crianças e jovens praticarem habilidades de adição e subtração. Ela fornece informações sobre como o jogo funciona, seus objetivos e a equipe por trás do desenvolvimento, sendo direcionada a estudantes que desejam melhorar suas habilidades matemáticas de forma envolvente.
 
 
