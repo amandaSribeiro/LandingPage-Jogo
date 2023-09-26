@@ -24,7 +24,7 @@ Para obter informações detalhadas sobre como desenvolver para o Projeto Nera, 
 [Documentação](https://link-da-documentação)
 
 
-![Logo](<img src="img/logoHorizontal.svg"">)
+![Logo](<img src="img/logoHorizontal.png"">)
 
 
 
