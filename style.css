@@ -2,11 +2,6 @@ body{
     margin: 0;
     padding: 0;
 }
-.ondas{
-    width:1287px;
-    height:983px;
-    fill:none;
-}
 
 .h1-principal{
     width: 1000px;
@@ -44,19 +39,24 @@ h2{
     padding: 10px;
     z-index: 1;
 }
-.vetorOndas{
-    background-size: 100% auto;
-    height: auto; /* Mantenha a proporção */
-    position: fixed; /* Mantenha o vetor fixo na tela */
-    position: relative;
-    top: 0;
-    left: 0;
-    width: auto;
-    flex-shrink: 0;
-    background-size: 100% auto; /* Cobrir a largura e ajustar a altura automaticamente */
-    flex-direction:column;
-    display: block;
-    max-width: 100%; /* Ajuste para o tamanho máximo desejado */
+.secao1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vetorOndas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ondas {
+    width: 100%;
+    height: 100%;
 }
 
 .btn-jogue-agora{
@@ -79,49 +79,18 @@ h2{
     padding: 10px;
     z-index: 1;
     border-radius: 30px;
-        }
 
-#secao2{
-    /* section2 */
+}
 
-position: absolute;
-width: 1305.92px;
-height: 848.45px;
-left: 73.24px;
-top: 1227px;
+.secao2 {
+    text-align: center;
+    padding: 20px;
+}
 
-
-
-
-
-
-/* Neste emocionante duelo, você controlará dois personagens do N.E.R.A., o Adição e o Subtração */
-
-position: absolute;
-width: 1305.92px;
-height: 238.87px;
-left: 73.24px;
-top: 1527.85px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-
-color: #000000;
-
-/* logoHorizontal 1 */
-
-position: absolute;
-width: 904.79px;
-height: 224.23px;
-left: calc(50% - 904.79px/2 - 0.56px);
-top: 1227px;
-
-background: url(logoHorizontal.png);
-
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Estilo para a imagem com a classe .logoHorizontal */
