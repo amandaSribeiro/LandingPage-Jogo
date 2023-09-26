@@ -20,8 +20,7 @@ Insira um gif ou um link de alguma demonstração
 
 ## Manual de Desenvolvimento do jogo
 
-Para obter informações detalhadas sobre como desenvolver para o Projeto Nera, consulte nosso [Manual de Desenvolvimento em PDF](link para o manual em PDF).
-[Documentação]<https://link-da-documentação>
+Para obter informações detalhadas sobre como desenvolver para o Projeto Nera, consulte nosso [Manual de Desenvolvimento em PDF] (link para o manual em PDF).
 
 
 ## Projeto N.E.R.A.
@@ -32,9 +31,6 @@ O Projeto N.E.R.A. é uma iniciativa inovadora que combina gamificação com o e
 <br>
 
 <img src="img/logoHorizontal.png">
-
-
-
-
+<br> <br>
 © [N.E.R.A.]
 
