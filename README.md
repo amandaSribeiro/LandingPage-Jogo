@@ -30,5 +30,5 @@ O Projeto N.E.R.A. é uma iniciativa inovadora que combina gamificação com o e
 
 <img src="img/logoHorizontal.png">
 <br> <br>
-© [N.E.R.A.]
+© N.E.R.A.
 
