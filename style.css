@@ -1,6 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ondas{
+    width:1287px;
+    height:983px;
+    fill:none;
+}
+
 .h1-principal{
-    width: 707.052px;
-    height: 167.176px;
+    width: 1000px;
+    height: 1000px;
     flex-shrink: 0;
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -72,7 +82,46 @@ h2{
         }
 
 #secao2{
-    position: relative ;
+    /* section2 */
+
+position: absolute;
+width: 1305.92px;
+height: 848.45px;
+left: 73.24px;
+top: 1227px;
+
+
+
+
+
+
+/* Neste emocionante duelo, você controlará dois personagens do N.E.R.A., o Adição e o Subtração */
+
+position: absolute;
+width: 1305.92px;
+height: 238.87px;
+left: 73.24px;
+top: 1527.85px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+/* logoHorizontal 1 */
+
+position: absolute;
+width: 904.79px;
+height: 224.23px;
+left: calc(50% - 904.79px/2 - 0.56px);
+top: 1227px;
+
+background: url(logoHorizontal.png);
+
 }
 
 /* Estilo para a imagem com a classe .logoHorizontal */
@@ -109,11 +158,30 @@ h3 {
 }
 
 /* Estilo para as divs dos personagens */
-.personagem {
+.personagem1 {
 
+/* fotoPersonagem1 */
+
+position: absolute;
+width: 413.52px;
+height: 345.92px;
+left: 786.48px;
+top: 1729.54px;
+}
+
+.personagem2{
+/* fotoPersonagem2 */
+
+position: absolute;
+width: 413.52px;
+height: 345.92px;
+left: 221.97px;
+top: 1729.54px;
 }
 
 /* Estilo para as imagens dos personagens */
 .personagem img {
     
 }
+
+
