@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+ background-image: url(/img/vetorOndas.svg);
+ background-repeat: no-repeat;
+ height: 150vh;
+ position: static;
+}
+.flex{
+    display: flex;
+}
+.topo{
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+.text h1{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+}
+.text h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text button{
+    padding: 10px 20px;
+    background-color: #F20574;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transform: translateX(-50%);
+    margin-top: 10%;
+    margin-left: 50%;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.text{
+    padding: 5%;
+}
+.video{
+    justify-content: center;
+    margin: 5%;
+}
+.video img{
+    width: 100%;
+}
+.person{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 p{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+.personagens{
+    justify-content: center;
+    margin: 15%;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+.personagens img{
+    width: 80%;
+}
+
+.bene{
+    background: #F2B705;
+    height: 50vh;
+
+}
+
+.card-bene{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bene img{
+    width: 40%;
+    border-radius: 50%;
+}
+.objetivo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2{
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 h1{
+    color: #034C8C;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Roboto;
+font-size: 63px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text2 p{
+    margin: 5%;
+    color: #000;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: justify;
+}
+
+.logo2{
+    justify-content: center;
+    align-items: center;
+}
+.logo2 img{
+    width: 30%;
+}
+
+
+
+
