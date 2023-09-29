@@ -1,12 +1,34 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.h1-principal{
-    width: 1000px;
-    height: 1000px;
-    flex-shrink: 0;
+header{
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ background-image: url(img/vetorOndas.svg);
+ background-size:  100%;
+ background-repeat: no-repeat;
+ height: 180vh;
+ align-items: center;
+ position: relative;
+}
+
+.flex{
+    display: flex;
+}
+.topo{
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+.text h1{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Roboto;
@@ -14,53 +36,19 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    top: 180px;
-    left: 30%;
-    transform: translateX(-47%);
-    padding: 1px;
-    z-index: 1;
 }
-
-h2{
-    width: 650.758px;
-    height: 126.823px;
-    flex-shrink: 0;
+.text p{
+    padding: 5%;
+    margin-top: 5%;
     color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    top: 400px;
-    left: 30%;
-    transform: translateX(-46%);
-    padding: 10px;
-    z-index: 1;
-}
-.secao1 {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.vetorOndas {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ondas {
-    width: 100%;
-    height: 100%;
-}
-
-.btn-jogue-agora{
-    padding: 10px 20px;
+.text button{
     background-color: #F20574;
     color: #FFF;
     font-family: Roboto;
@@ -73,84 +61,169 @@ h2{
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transform: translateX(-50%);
-    position: absolute;
-    top: 550px;
-    left: 30%;
-    padding: 10px;
+    margin-top: 10%;
+    margin-left: 50%;
+    padding: 20px;
     z-index: 1;
     border-radius: 30px;
-
 }
 
-.secao2 {
-    text-align: center;
-    padding: 20px;
+.text{
+    padding: 5%;
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
+.video{
+    justify-content: center;
+    margin: 5%;
+}
+.person{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-/* Estilo para a imagem com a classe .logoHorizontal */
-.logoHorizontal {
-    display: block;
-    max-width: 100%; /* Ajuste para o tamanho máximo desejado */
-    height: auto; /* Mantenha a proporção */
-    position: absolute; /* Posição absoluta */
-    left: 50%; /* Centralize horizontalmente */
-    transform: translateX(-50%); /* Centralize horizontalmente */
-    z-index: 1; /* Garanta que a imagem esteja à frente de outros elementos, se necessário */
+.logo1 p{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
 }
 
-h3 {
-    width: 1305.916px;
-    height: 238.873px;
+.personagens{
+    justify-content: center;
+    margin: 15%;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+.personagens img{
+    width: 80%;
+}
+
+.bene{
+    background: #F2B705;
+    height: 50vh;
+
+}
+
+#icons{
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-bene{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-bene p {
+    padding-right: 25px;
+}
+
+
+.card-bene img{
+    width: 60%;
+    padding: 10px;
+    border-radius: 70%;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+
+.math {
+    width: 200px;
+    height: 200px;
+}
+
+.xadrez {
+    width: 200px;
+    height: 200px;
+}
+
+.game {
+    width: 200px;
+    height: 200px;
+}
+.objetivo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.text2{
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 h1{
+    color: #034C8C;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Roboto;
+font-size: 63px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text2 p{
+    margin: 5%;
     color: #000;
-    text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: justify;
+}
+
+.logo2{
+    justify-content: center;
+    align-items: center;
+}
+.logo2 img{
+    width: 30%;
+}
+
+.manu{
+    background-color: #F20574;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.manu p{
+    margin: 5%;
+    color: #ffffff;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: justify;
+}
+
+.manu button{
+    background-color: #034C8C;
+    color: #FFF;
     font-family: Roboto;
-    font-size: 32px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1%;
+    border-radius: 30px;
+    margin-bottom: 5%;
 }
-
-/* Estilo para o elemento pai (container) */
-.container {
-    
-}
-
-/* Estilo para as divs dos personagens */
-.personagem1 {
-
-/* fotoPersonagem1 */
-
-position: absolute;
-width: 413.52px;
-height: 345.92px;
-left: 786.48px;
-top: 1729.54px;
-}
-
-.personagem2{
-/* fotoPersonagem2 */
-
-position: absolute;
-width: 413.52px;
-height: 345.92px;
-left: 221.97px;
-top: 1729.54px;
-}
-
-/* Estilo para as imagens dos personagens */
-.personagem img {
-    
-}
-
-

@@ -1,51 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Batalha Matemática: Adição vs. Subtração</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Matemática: Adição vs. Subtração</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <section class="secao1">
-    <h1 class="h1-principal">Batalha Matemática: Adição vs. Subtração</h1>
-    <h2> Nosso divertido jogo em pixel art em uma arena 2D repleta de desafios</h2>
-    <div class="vetorOndas">
-      <img src="img/vetorOndas.svg" alt="svg fundo" class="ondas">
+    <header>
+        <div class="topo">
+            <div class="text">
+                <h1>Batalha Matemática: Adição vs. Subtração</h1>
+                <p>Nosso divertido jogo em pixel art em uma arena 2D repleta de desafios</p>
+                <!--Botao 1-->
+                <button class="btn-jogue-agora">JOGUE AGORA!</button>
+            </div>
+            <div class="flex video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2aQYlv3Yr3I?si=jIjIR12zFqZihK7d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </header>
+    <section class="person flex">
+        <div class="logo1 flex">
+            <img class="logoHorizontal" src="img/logoHorizontal.svg" alt="logonera">
+            <p>Neste emocionante duelo, você controlará dois personagens do N.E.R.A.: o Adição e o Subtração</p>
+        </div>
+        <!--Aqui ficarão as imagens dos personagens. Por enquanto o css está desformatado, tem que arrumar isso-->
+        <div class="container">
+            <div class="personagens flex">
+                <img src="img/img.png" alt="colocar personagem 1">
+            </div>
+            <div class="personagens flex">
+                <img src="img/img.png" alt="colocar personagem 2">
+            </div>
+        </div>
+    </section>
 
+    <section id="icons" class="bene flex">
+        <div id="iconGame" class="card-bene flex">
+            <img src="img/VectorGame.svg" class="game" alt="colocar personagem 1">
+            <p>Aprendizado Divertido</p>
+        </div>
+        <div id="iconXadrez" class="card-bene flex">
+            <img src="img/VectorXadrez.svg" class="xadrez" alt="colocar personagem 2">
+            <p>Desenvolvimento de Estratégias</p>
+        </div>
+        <div id="iconMath" class="card-bene flex">
+            <img src="img/VectorSimbolosMatematicos.svg" class="math" alt="colocar personagem 1">
+            <p>Desenvolvimento de Habilidades Matemáticas</p>
+        </div>
 
-    </div>
-    <button class="btn-jogue-agora">JOGUE AGORA!</button>
-  </section>
+    </section>
 
-  <section class="secao2">
-    <div class="logo1">
-      <img class="logoHorizontal" src="img/logoHorizontal.svg" alt="logonera">
-    
-      <h3>Neste emocionante duelo, você controlará dois personagens do N.E.R.A.: <br> o Adição e o Subtração</h3>
+    <section class="objetivo flex">
+        <div class="text2 flex">
+            <h1>OBJETIVO DO JOGO</h1>
+            <p>O objetivo é simples: eliminar o seu oponente através de disparos matemáticos precisos.
+                O Adição ataca subtraindo a vida do Subtração, enquanto o Subtração atira para adicionar vida ao seu
+                personagem.
+                Mas cuidado! A estratégia é fundamental, pois o primeiro a chegar a 0 de vida será derrotado.</p>
+        </div>
 
-    </div>
-   
-    <!--Aqui ficarão as imagens dos personagens. Por enquanto o css está desformatado, tem que arrumar isso-->
-    <div class="container">
-      <div class="personagem1"><img src="img/img.png" alt="colocar personagem 1"></div>
-      <div class="personagem2"><img src="img/img.png" alt="colocar personagem 2"></div>
-    </div>
-  </section>
+        <div class="logo2 flex">
+            <img src="/img/IconeNera.png" alt="">
+        </div>
 
-  <section>
+    </section>
+    <section class="manu flex">
+        <p> Desenvolvido para ser simples e divertido, este jogo oferece uma maneira lúdica de praticar habilidades
+            matemáticas enquanto se diverte.
+            Escolha o seu lado, calcule os disparos com cuidado e vença esta batalha matemática!</p>
+        <div>
+            <img src="img/img.png" alt="colocar personagem 1">
+        </div>
 
-  </section>
+        <button>LEIA O MANUAL DE DESENVOLVIMENTO DO JOGO</button>
 
-  <section>
+    </section>
 
-  </section>
-
-  <section>
-
-  </section>
 </body>
 
 </html>
