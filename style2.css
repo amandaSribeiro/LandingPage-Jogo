@@ -3,18 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
+ padding: 0;
+ margin: 0;
  width: 100%;
+ background-image: url(img/vetorOndas.svg);
+ background-size:  100%;
  background-repeat: no-repeat;
- height: 150vh;
+ height: 180vh;
+ align-items: center;
  position: relative;
- z-index: 2;
 }
-.header img {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
+
 .flex{
     display: flex;
 }
@@ -111,15 +112,46 @@ header{
 
 }
 
+#icons{
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .card-bene{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
+.card-bene p {
+    padding-right: 25px;
+}
+
+
 .card-bene img{
-    width: 40%;
-    border-radius: 50%;
+    width: 60%;
+    padding: 10px;
+    border-radius: 70%;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+
+.math {
+    width: 200px;
+    height: 200px;
+}
+
+.xadrez {
+    width: 200px;
+    height: 200px;
+}
+
+.game {
+    width: 200px;
+    height: 200px;
 }
 .objetivo{
     flex-direction: column;
