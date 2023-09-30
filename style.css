@@ -11,7 +11,7 @@ header{
  background-image: url(img/vetorOndas.svg);
  background-size:  100%;
  background-repeat: no-repeat;
- height: 180vh;
+ height: 150vh;
  align-items: center;
  position: relative;
 }
@@ -46,9 +46,10 @@ header{
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 5%;
 }
 
-.text button{
+.text a{
     background-color: #F20574;
     color: #FFF;
     font-family: Roboto;
@@ -61,7 +62,7 @@ header{
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transform: translateX(-50%);
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 50%;
     padding: 20px;
     z-index: 1;
@@ -75,6 +76,11 @@ header{
     justify-content: center;
     margin: 5%;
 }
+
+.video iframe{
+    width: 40vw;
+    height: 50vh;
+}
 .person{
     flex-direction: column;
     justify-content: center;
@@ -85,39 +91,40 @@ header{
     justify-content: center;
     align-items: center;
 }
+.container{
+    width: 100%;
+    justify-content: space-around;
+}
 
 .logo1 p{
     margin-top: 5%;
-    font-size: 20px;
+    font-size: 25px;
 }
-.container{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: center;
-}
-
 .personagens{
-    width: 10vw;
-    justify-content: center;
-    margin: 15%;
-    margin-right: 20px;
-    background-color: darkgray;
-    border-radius: 20px;
+    align-items: center;
 }
 .personagens img{
-    width: 80%;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
 }
 
 .bene{
     background: #F2B705;
-    height: 50vh;
-
-}
-
-#icons{
+    height: 60vh;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .card-bene{
@@ -126,19 +133,28 @@ header{
     align-items: center;
     
 }
-
-.card-bene p {
-    padding-right: 25px;
+.img-bene{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    width: 200px;
 }
 
-
-.card-bene img{
+.img-bene img{
     width: 60%;
-    padding: 10px;
-    border-radius: 70%;
     align-items: center;
-    background-color: #ffffff;
 
+}
+.xadrez{
+    width: 50% !important;
+}
+.card-bene p {
+    font-size: 20px;
+    text-align: center;
+    width: 80%;    
 }
 
 .math {
@@ -214,9 +230,17 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: justify;
+margin-bottom: 2%;
 }
-
-.manu button{
+.tela{
+    justify-content: center;
+    align-items: center;
+}
+.tela img{
+    width: 80%;
+    border-radius: 20px;
+}
+.manu a{
     background-color: #034C8C;
     color: #FFF;
     font-family: Roboto;
@@ -228,4 +252,7 @@ text-align: justify;
     padding: 1%;
     border-radius: 30px;
     margin-bottom: 5%;
+    text-decoration: none;
+    color: #FFF;
 }
+  
