@@ -18,7 +18,7 @@ Insira um gif ou um link de alguma demonstração
 
 ## Manual de Desenvolvimento do jogo
 
-Para obter informações detalhadas sobre como desenvolver para o Projeto Nera, consulte nosso [Manual de Desenvolvimento em PDF] (link para o manual em PDF).
+Para obter informações detalhadas sobre como desenvolver para o Projeto Nera, consulte nosso [[Manual de Desenvolvimento em PDF](https://amandasribeiro.github.io/LandingPage-Jogo/manual-ogodesinais.pdf)].
 
 
 ## Projeto N.E.R.A.
