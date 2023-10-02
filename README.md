@@ -5,7 +5,7 @@ A landing page apresenta o jogo "Batalha Matemática: Adição vs. Subtração" 
 
 ## Demonstração
 
-<img src="img/">
+<img src="img/jogo-b.png">
 
 
 ## Autores
