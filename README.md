@@ -18,7 +18,7 @@ A landing page apresenta o jogo "Batalha Matemática: Adição vs. Subtração" 
 
 ## Manual de Desenvolvimento do jogo
 
-Para obter informações detalhadas sobre como desenvolver para o Projeto Nera, consulte nosso [Manual de Desenvolvimento em PDF](https://amandasribeiro.github.io/LandingPage-Jogo/manual-ogodesinais.pdf).
+Para obter informações detalhadas sobre como foi o desenvolvimento do jogo, consulte nosso [Manual de Desenvolvimento em PDF](https://amandasribeiro.github.io/LandingPage-Jogo/manual-ogodesinais.pdf).
 
 
 ## Projeto N.E.R.A.
